@@ -1,11 +1,13 @@
+
+
 html{ 
-   
-   
     height: 100%;
 }
 body{
     margin:0;
     background-color: rgba(162, 228, 146, 0.315);
+    padding: 0;
+
 }
 p{
     font-weight: 500;
@@ -125,6 +127,14 @@ nav ul li a{
     box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
   }
+  .card1:hover {
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  .card0:hover {
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
 h1{
     text-align:center;
     color: turquoise;
@@ -168,3 +178,40 @@ h1{
 .iconclass{
     margin-left: 40%;
 }
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.image{
+  border-radius: 0;
+}
+
+.column0 {
+  float: left;
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 0 80px;
+}
+
+.card0 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px;
+ 
+}
+.container0 {
+  padding: 0 16px;
+}
+
+.container0::after, .row0::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row0{
+  text-align: justify;
+  margin-left: 20%;
+
+}
+
